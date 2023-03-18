@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Install Kali Linux</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:image" content="static/images/thumbnail.gif" />
+    <meta name="description" content="Kali Linux is a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali contains hundred tools which are geared towards various information security tasks, such as Penetration Testing, Security research, Computer Forensics and Reverse Engineering.">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/hackingtutorials.css">
+
+    </head>
+    <body>
+
+
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="/" class="logo">Guide <span STYLE="font-size: 15px;">TO</span><em> Hacking</a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="/">Home</a></li>
+                            <li class="scroll-to-section"><a href="/hacking/">Hacking</a></li>
+                            <li class="scroll-to-section"><a href="#">About</a></li>
+                            <li class="scroll-to-section"><a href="#">Contact</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+<!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <img class="img-responsive" src="static/images/install_kali_3GadWAF.jpg" alt="Install Kali Linux" id="bg-video">
+        <div class="video-overlay header-text">
+            <div class="caption">
+                 <!-- Title -->
+                <h6>Install Kali Linux</h6>
+                <!-- <div class="main-button scroll-to-section">
+                    <a href="#features">Become a member</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+
+    
+
+
+    
+  <section class="section" >
+        <div class="container">
+            <div class="row">
+              <div class="col-md-9 ">
+                <div class="article blog-box">
+                    <h1>How To install Kali linux</h1>
+   <p>Before installation process we will disscuss how can you install it you can install it on bare matel(hardware) or in virtual machines(virtual box ,Vmware)</p>
+   <ul>
+   <p>For installation we need</p>
+   <li>On bare matel(Hardware) we need need a <a href="#bootablePendrive">bootable pendrive</a></li>
+   <li>On virtual machines we need image file of <a href="https://www.kali.org/downloads/" target="_blank">Kali linux Official</a> </li>
+   </ul>
+   <h2>Installation Process</h2>
+   <div class="well">
+   <p>Attatch bootable USB drive on machine if you are install on direct hardware or start VM after virtually attach image file of linux.</p>
+   <b>Note : These steps will always same if you install kali in virtual machine or on hardware. </b>
+   <ol>
+        <li value="1">When you start over it you see many options like- </li>
+          <ul>
+            <li><b>Live mode-</b> Running in live mode is when you want to test the OS without actually installing it. In live mode, the system is running RAM (that's volatile) and so when you power off your system every change that you made in that session is destroyed. Of course you can store any files of you want by connecting another USB drive or something like that. Many hackers will have a handy Kali Linux live USB in their hands as it can be inserted in any computer and can be used in live mode to do what ever they want and get the changes destroyed without any traces. I also use this mode to check system hardware issue with live mode.</li>
+            <li><b>Forensic mode-</b> it is very useful when you are investigating someones pc in this mode we use kali in a system with -</li>
+              <ul>
+                <li>The internal hard Disk will never write or overwrites.</li>
+                <li>Swap partition of internal disk will never used </li>
+                <li>Any internal disk will not be auto mounted</li>
+                <li>Hash value of internal Disk will not change when we investigate using forensic mode of kali .</li>
+              </ul>
+            <li><b>Install-</b> If you select this your machine install a cli based kali linux </li>
+            <li><b>Graphical Install-</b> For graphical installation of kali on you machine(Recommended for new users).</li>
+          </ul>
+        <li>Select Language for kali and press Continue.</li>
+        <li>Select your location and press Continue.</li>
+        <li>Select keyboard language and press Continue.</li>
+	<li>Network configuration if not leave it for after installation or select Do not configure network and press Continue.</li>
+	<li>Select hostname for you system and press Continue.</li>
+	<li>select domain name I prefer to leave it blank and press Continue. </li>
+	<li>Set password for root user and press Continue.</li>
+	<li>Clock configuration of your machine and press Continue.</li>
+	<li>Now the important part of installation comes here many people go wrong if you are installing kali for first time you can follow these step or if you aware with it then go ahead as you want. If you are dual booting your system and you select wrong petition you can loose your all data.</li>
+	  <ul>
+	    <li>select <b>guided partition</b></li>
+	    <li>You can create other logical volumes but for now I prefer to select <b>use entire disk</b></li>
+	    <li>Now select <b>disk partition</b>, in my case it is a virtual machine so i have single partition but in case you have to select free volume or partition correctly on which you want to install kali.</li>
+	    <li>Now <b>all files in single partition</b> or you want to create more than one partition it is useful to create more than one partition because if your machine fails you would not loose your data, if you reinstall kali on same partition but for now you can select all files in single partition</li>
+            <li>Now it is time to <b>write changes</b> on disk.</li>
+            </ul>
+            <li>Now the installation process begin and it will take some time</li>
+	    <li>Now if you want a <b>network mirror or proxy</b> you can setup from here or select no at this time.</li>
+	    <li>Now final part is installing boot loader on machine.</li>
+ 	    <li>After installation system will <b>restart automatically</b> you can plug out your bootable pen drive.</li>
+      </ol>
+   </div>
+    <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WCDhZj4kBnU" frameborder="0" allow="accelerometer; autoplay; encrypted-static; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+<br/>
+   <h3 id="bootablePendrive">Create Bootable pendrive</h3>
+   <h4>Using linux and Mac(Using dd command)</h4>
+   Attach pendrive see list of disks attached in system. using command-
+   <p class="well">diskutil list <p>
+   from result of above command select your pendrive(in my case it shows /dev/disk1) <br/>
+   Now Unmount pendrive using command-
+   <p class="well">unmountDisk /dev/disk1 <p>
+   Finally run "dd" command for creating bootable pendrive-
+   <p class="well">sudo dd if=/path/to/iso/file of=/dev/disk1 bs=1m</p>
+   <b>Note:this may take a lot of time so please wait while running this command <br/>
+   Note-sometime it will take a hour approx</b>
+
+   <h4>Using Rufus on windows</h4>
+       It will take less than 5 minute for create botable pen drive using <a href="https://rufus.ie/" target="_blank">Rufus</a><br/>
+       Download Rufus Using Direct <a href="https://github.com/pbatard/rufus/archive/v3.11.zip">Link</a>.
+       Open Rufus and set options like given in image-
+<img src="static/images/rufus.png">
+       <br/>
+       Click on start (it will take a bit of time till visit our other blogs)
+                </div>
+              </div>
+            <!-- Team member -->
+                <div class="col-md-3">
+                    <div class="leftsidebar">
+                        
+                        <a class="active" href="/blog/Install%20Kali%20Linux">Install Kali Linux</a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ***** blog-container ***** -->
+
+    <!-- ***** blogcontainer End ***** -->
+
+    <!-- ***** Footer Start ***** -->
+
+    <!-- Site footer -->
+      <footer class="site-footer" style="background-image: url(static/images/footer.jpg);background-size: cover;">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">GuideToHACk is an initiative to help the upcoming pentesters with tools.  We are going to provide a guide for the most useful tools for pen testing and tricks that can be used in penetration testing. We will demonstrate some attacks(Man In The Middle Attack, Denial of Service Attack, Wireless hacking, etc.) with the help of video which will help to learn ethical hacking. We will cover tools like Nmap, Burpsuite, social engineering toolkit, etc.</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+  <!--            <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="">C</a></li>
+                <li><a href="">UI Design</a></li>
+                <li><a href="">PHP</a></li>
+                <li><a href="">Java</a></li>
+                <li><a href="">Android</a></li>
+                <li><a href="">Templates</a></li>
+              </ul>-->
+            </div>
+
+
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Contribute</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by
+           <a href="#">EthicalHackerGuide</a>.
+              </p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+    <!-- Plugins -->
+    <script src="static/js/scrollreveal.min.js"></script>
+    <script src="static/js/accordions.js"></script>
+    <!-- Global Init -->
+    <script src="static/js/custom.js"></script>
+
+  </body>
+</html>
